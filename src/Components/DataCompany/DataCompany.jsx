@@ -1,5 +1,5 @@
 import React from "react";
-import "./DataStyle.css";
+import "../Css/DataStyle.css";
 
 const DataCompany = () => {
   return <div>DataCompany</div>;

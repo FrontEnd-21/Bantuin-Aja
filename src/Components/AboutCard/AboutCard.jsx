@@ -1,10 +1,10 @@
 import React from "react";
-import "./AboutStyle.css";
+import '../Css/AboutStyle.css';
 
 const AboutCard = () => {
   return (
     <>
-      <section className='about'>
+      <div className='about'>
         <h1>Tentang Bantuin.aja</h1>
         <h2>Apa sih bantuin.aja itu ?</h2>
         <p>
@@ -12,7 +12,7 @@ const AboutCard = () => {
           informasi mengenai bantuan dari berbagai jenis bantuan yang ada serta
           memudahkan mitra untuk melakukan validasi serta verivikasi data.
         </p>
-      </section>
+      </div>
     </>
   );
 };

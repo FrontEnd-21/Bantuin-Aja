@@ -1,0 +1,54 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 290px;
+    left: 0px;
+    top: 1097px;
+    background: #003f7e;
+    border-radius: 100px 0px;
+  }
+  
+  .about h1 {
+    position: absolute;
+    top: 35px;
+    font-family: "Verdana";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    text-align: center;
+    color: #f27c36;
+  }
+  
+  .about h2 {
+    position: absolute;
+    left: 110px;
+    top: 110px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+  
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+    color: #ffffff;
+  }
+  
+  .about p {
+    position: relative;
+    margin: 150px 70px 0 110px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+  
+    color: #ffffff;
+  }

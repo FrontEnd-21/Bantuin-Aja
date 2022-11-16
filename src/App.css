@@ -1,4 +1,4 @@
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,10 +6,10 @@ body {
 
 .data {
   width: 100%;
-  background-color: aqua;
+  /* background-color: aqua; */
   height: 30vh;
 }
 .footer {
   margin-bottom: -10px;
-  background-color: aqua;
+  /* background-color: aqua; */
 }

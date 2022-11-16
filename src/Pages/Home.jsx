@@ -5,9 +5,9 @@ import AboutCard from "../Components/AboutCard/AboutCard";
 const Home = () => {
   return (
     <>
-      {/* <div className="data">
+      <div className='data'>
         <DataCompany />
-      </div> */}
+      </div>
       <div className='at'>
         <AboutCard />
       </div>

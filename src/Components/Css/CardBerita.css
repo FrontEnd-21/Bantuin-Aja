@@ -1,0 +1,42 @@
+.infomation {
+  position: relative;
+  height: 380px;
+  background: #a9a8a8;
+}
+
+.Berita{
+  position: absolute;
+  width: 1185px;
+  height: 280px;
+  top: 40px;
+  left: 90px;
+  background: White;
+  border-radius: 20px;
+}
+
+.Berita h3{
+  padding: 30px 0 20px 70px;
+  font-size: 35px;
+}
+
+.Berita .p {
+  position: relative;
+  padding: 3px 150px 0 70px;
+  letter-spacing: 1px;
+  font-size: 22px;
+  line-height: 35px;
+}
+
+.Berita > i{
+  float: left;
+  display: flex;
+  flex-direction: row;
+  font-size: 40px;
+  margin: 20px 0 0 90px;
+}
+
+.Berita .txt {
+  float: left;
+  font-size: 20px;
+  padding: 22px 10px 0 10px;
+}

@@ -2,14 +2,14 @@ import React from "react";
 import AboutCard from "../Components/AboutCard/AboutCard";
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
-// import DataCompany from "./Components/DataCompany/DataCompany";
+// import DataCompany from "../Components/DataCompany/DataCompany";
 
 const Home = () => {
   return (
     <>
-      <div className='data'>
+      {/* <div className='data'>
         <DataCompany />
-      </div>
+      </div> */}
       <Navbar />
       <div className='at'>
         <AboutCard />

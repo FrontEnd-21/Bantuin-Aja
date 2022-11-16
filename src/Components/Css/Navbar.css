@@ -3,13 +3,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
    
 }
 nav {
+    width: 100%;
     background-color: #A9A8A8 ;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .link ul {
     display: flex;

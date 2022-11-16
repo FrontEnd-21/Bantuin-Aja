@@ -7,13 +7,13 @@ function Navbar() {
   return (
     <div>
       <nav>
-        
         <div className="content">
           <div className="logo">
               <img src={logo} alt="" />
           </div>
           <div className="link">
             <ul>
+              
               <li>Home</li>
               <li>Bantuan</li>
               <li><img src={circle} alt="" /></li>

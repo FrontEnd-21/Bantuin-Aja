@@ -7,20 +7,17 @@ import Navbar from "../Components/Navbar";
 const Home = () => {
   return (
     <>
-      {/* <div className="data">
+      <div className='data'>
         <DataCompany />
-      </div> */}
-        <Navbar />
-        <div className='at'>
-          <AboutCard />
-        </div>
-        <div className='data'>
-          
-        </div>
-        <div className='footer'>
-          <Footer />
-        </div>
-      
+      </div>
+      <Navbar />
+      <div className='at'>
+        <AboutCard />
+      </div>
+      <div className='data'></div>
+      <div className='footer'>
+        <Footer />
+      </div>
     </>
   );
 };

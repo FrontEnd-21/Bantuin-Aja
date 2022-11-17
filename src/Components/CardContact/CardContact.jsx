@@ -1,20 +1,20 @@
-import React from 'react'
-import mitra from '../assets/mitra.svg'
-import '../Css/CardContact.css';
+import React from "react";
+import mitra from "../../assets/mitra.svg";
+import "../Css/CardContact.css";
 
 const CardContact = () => {
   return (
     <>
-    <div className='mitra'>
-      <h1>Ingin bergabung menjadi mitra kami?</h1>
-      <button>Daftar</button>
+      <div className='mitra'>
+        <h1>Ingin bergabung menjadi mitra kami?</h1>
+        <button>Daftar</button>
 
-      <div className='imgmitra'>
-        <img src={mitra} alt="" />
+        <div className='imgmitra'>
+          <img src={mitra} alt='' />
+        </div>
       </div>
-    </div>
     </>
-  )
-}
+  );
+};
 
-export default CardContact
+export default CardContact;

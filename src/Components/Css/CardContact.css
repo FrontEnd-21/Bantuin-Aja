@@ -1,33 +1,33 @@
 .mitra {
-  position: absolute;
+  position: relative;
   width: 1230px;
   height: 246px;
-  left: 65px;
-  top: 1996px;
-
+  margin: 100px 0 100px 65px;
   background: #003f7e;
   border-radius: 10px;
 }
 
 .mitra h1{
-  padding: 70px;
+  font-weight: 400;
+  font-size: 35px;
+  padding: 40px 0 0 60px;
   color: #ffffff;
 }
 
 .mitra button {
-  margin: 0 0 0 70px;
+  
   position: absolute;
+  margin: 0 0 0 60px;
   width: 200px;
   height: 59px;
   border-radius: 17px;
-  bottom: 35px;
+  bottom: 50px;
 
   background-color: #f27c36;
   border-color: aliceblue;
 
-  font-weight: 500;
   font-size: 20px;
-  line-height: 30px;
+ 
   align-items: center;
   text-align: center;
 
@@ -39,7 +39,7 @@
   background-color: #e05d0f;
 }
 
-.mitra imgmitra {
+.mitra .imgmitra {
   box-sizing: border-box;
 
   position: absolute;

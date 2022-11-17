@@ -1,7 +1,8 @@
-.infomation {
+.Information {
   position: relative;
+  width: auto;
   height: 380px;
-  background: #a9a8a8;
+  background: #919090;
 }
 
 .Berita{
@@ -19,24 +20,22 @@
   font-size: 35px;
 }
 
-.Berita .p {
+.Berita p {
   position: relative;
-  padding: 3px 150px 0 70px;
-  letter-spacing: 1px;
-  font-size: 22px;
-  line-height: 35px;
+  padding: 0 20px 0 70px;
+  font-size: 20px;
 }
 
-.Berita > i{
+.Berita .txt{
   float: left;
   display: flex;
   flex-direction: row;
-  font-size: 40px;
-  margin: 20px 0 0 90px;
+  font-size: 30px;
+  padding: 5px 0 10px 100px;
 }
 
-.Berita .txt {
+.Berita span {
   float: left;
   font-size: 20px;
-  padding: 22px 10px 0 10px;
+  padding: 3px 10px 0 10px;
 }

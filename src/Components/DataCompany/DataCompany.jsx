@@ -1,7 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../Css/DataStyle.css";
+import axios from "axios";
+import { useState } from "react";
 
-const DataCompany = () => {
+function DataCompany() {
+  const [company, Setcompany] = useState([]);
+
+  useEffect(() => {
+    axios
+      .get("https://63746b0408104a9c5f7fbfb1.mockapi.io")
+      .then((res) => {
+        console.log(res);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  });
+
   return (
     <>
       <div className='section-bantuan'>
@@ -21,6 +36,6 @@ const DataCompany = () => {
       </section>
     </>
   );
-};
+}
 
 export default DataCompany;

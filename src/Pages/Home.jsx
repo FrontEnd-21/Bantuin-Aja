@@ -1,22 +1,32 @@
 import React from "react";
-import AboutCard from "../Components/AboutCard/AboutCard";
-import Footer from "../Components/Footer";
-import Navbar from "../Components/Navbar";
+import CardAbout from "../Components/CardAbout/CardAbout";
+import CardBerita from "../Components/CardBerita/CardBerita";
+import CardContact from "../Components/CardContact/CardContact";
+
 import DataCompany from "../Components/DataCompany/DataCompany";
+import CardTahapan from "../Components/CardTahapan/CardTahapan";
 
 const Home = () => {
   return (
     <>
-      <Navbar />
+      <div className='news'>
+        <CardBerita />
+      </div>
+
       <div className='data'>
         <DataCompany />
       </div>
+
       <div className='at'>
-        <AboutCard />
+        <CardAbout />
       </div>
-      <div className='data'></div>
-      <div className='footer'>
-        <Footer />
+
+      <div className='Tahapan'>
+        <CardTahapan />
+      </div>
+
+      <div className='contact'>
+        <CardContact />
       </div>
     </>
   );

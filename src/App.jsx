@@ -1,18 +1,28 @@
 import { useState } from "react";
 import "./App.css";
 import Footer from "./Components/Footer";
-import Navbar from "./Components/Navbar";
+import NavBar from "./Components/NavBar";
+import { Routes, Route } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+// Pages
 import Home from "./Pages/Home";
+import Bantuan from "./Pages/Bantuan";
+import DetailBantuan from "./Pages/DetailBantuan";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <Navbar />
-      <div className='App'>
-        <Home />
-      </div>
+      <NavBar />
+
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/Bantuan' element={<Bantuan />} />
+        <Route path='/DetailBantuan' element={<DetailBantuan />} />
+      </Routes>
+
       <Footer />
     </>
   );

@@ -1,6 +1,6 @@
 import React from "react";
-import mitra from "../../assets/mitra.svg";
-import "../Css/CardContact.css";
+import mitra from "../../assets/IMAGE/mitra.svg";
+import "../../assets/CSS/CardContact.css";
 
 const CardContact = () => {
   return (

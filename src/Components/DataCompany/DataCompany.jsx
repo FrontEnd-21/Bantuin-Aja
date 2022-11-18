@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "../Css/DataStyle.css";
+import "../../assets/CSS/DataStyle.css";
 import axios from "axios";
 import { useState } from "react";
 

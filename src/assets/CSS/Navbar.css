@@ -1,0 +1,14 @@
+.nav-color {
+    background: #f8f8f8;
+}
+
+.ms-auto{
+    font-size: 18px;
+}
+
+.ms-auto > .nav-link:hover {
+    font-size: 20px;
+    transition: all 0.2s;
+    color: #003F7E;
+    text-decoration: underline 3px #f27c36;
+}

@@ -2,7 +2,6 @@ import React from "react";
 import CardAbout from "../Components/CardAbout/CardAbout";
 import CardBerita from "../Components/CardBerita/CardBerita";
 import CardContact from "../Components/CardContact/CardContact";
-
 import DataCompany from "../Components/DataCompany/DataCompany";
 import CardTahapan from "../Components/CardTahapan/CardTahapan";
 

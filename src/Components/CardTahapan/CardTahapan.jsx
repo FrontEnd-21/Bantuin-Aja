@@ -1,10 +1,18 @@
 import React from "react";
-import "../Css/CardTahapan.css";
+import "../../assets/CSS/CardTahapan.css";
 import { FaSearch, FaFilePdf, FaRegClock, FaUserCheck } from "react-icons/fa";
 
 const CardTahapan = () => {
   return (
     <>
+      <div className='container'>
+        <div className='row'>
+          <div className='col d-flex justify-content-center'>
+            <h1 className='text-center'>Tahapan Mendapatkan Bantuan</h1>
+          </div>
+        </div>
+      </div>
+
       <div className='container' id='tahapan'>
         <div className='row d-flex justify-content-center align-items-center text-center'>
           <div className='col'>
@@ -21,6 +29,7 @@ const CardTahapan = () => {
               Yang Ada
             </p>
           </div>
+
           <div className='col '>
             <p className='txt'>
               <b>
@@ -34,6 +43,7 @@ const CardTahapan = () => {
               Persyaratan
             </p>
           </div>
+
           <div className='col'>
             <p className='txt'>
               <b>
@@ -48,16 +58,17 @@ const CardTahapan = () => {
             </p>
           </div>
 
-          <div className='col '>
-            <p class='txt'>
+          <div className='col'>
+            <p className='txt'>
               <b>
                 4
                 <br />
                 <FaUserCheck className='span' />
                 <br />
               </b>{" "}
-              Bantuan Siap Dikirim
+              Bantuan
               <br />
+              Siap Dikirim
             </p>
           </div>
         </div>

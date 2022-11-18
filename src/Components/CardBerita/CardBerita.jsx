@@ -1,5 +1,5 @@
 import React from "react";
-import "../Css/CardBerita.css";
+import "../../assets/CSS/CardBerita.css";
 import { SlCalender } from "react-icons/sl";
 import { AiOutlineLink } from "react-icons/ai";
 

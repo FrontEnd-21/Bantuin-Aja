@@ -71,3 +71,32 @@
     margin-top: 30px;
 }
 
+.Container3{
+    max-width: 200px;
+    position: absolute;
+    right: 12rem;
+    top: 51rem;
+    border-color: white;
+    align-items: center;
+}
+
+.icons{
+    font-size: 70px;
+    color: #003F7E;
+    margin-top: 20px;
+}
+
+.Itext{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.Line{
+    background: #F27C36;
+    width: 3px;
+    height: 70px;
+    margin-left: 2.5rem;
+}
+
+
+

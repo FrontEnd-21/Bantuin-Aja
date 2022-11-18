@@ -9,6 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./Pages/Home";
 import Bantuan from "./Pages/Bantuan";
 import DetailBantuan from "./Pages/DetailBantuan";
+import LengkapiDokumen from "./Pages/LengkapiDokumen";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -21,6 +22,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/Bantuan' element={<Bantuan />} />
         <Route path='/DetailBantuan' element={<DetailBantuan />} />
+        <Route path='/LengkapiDokumen' element={<LengkapiDokumen />} />
       </Routes>
 
       <Footer />

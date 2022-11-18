@@ -1,6 +1,10 @@
 import React from "react";
+
+// Image
 import bantuan from "../../assets/IMAGE/bantuan2.jpg";
 import NUS from "../../assets/IMAGE/NUS.svg";
+
+// CSS
 import "../../assets/CSS/CardBantuan.css";
 
 // Bootstrap
@@ -8,10 +12,12 @@ import Card from "react-bootstrap/Card";
 import Breadcrumb from "react-bootstrap/Breadcrumb";
 import Button from "react-bootstrap/Button";
 
-// ICONS
+// Icons
 import { FaChevronLeft } from "react-icons/fa";
+import { FaRegFileAlt } from "react-icons/fa";
+import { FaRegCheckCircle } from "react-icons/fa";
 import { MdOutlineTimelapse } from "react-icons/md";
-import { IoDocumentTextOutline } from "react-icons/io";
+import { MdOutlineDocumentScanner } from "react-icons/md";
 
 const CardBantuan = () => {
   return (
@@ -32,7 +38,9 @@ const CardBantuan = () => {
             <MdOutlineTimelapse />
             12 Desember 2022
           </Card.Text>
-          <Button className='btn'>Apply</Button>
+          <a href='/LengkapiDokumen'>
+            <Button className='btn'>Apply</Button>
+          </a>
 
           <Card.Img variant='right' src={bantuan} className='bimg' />
           <Card.Text className='btxt'>
@@ -78,11 +86,28 @@ const CardBantuan = () => {
         </Card.Body>
       </Card>
 
-      <Card>
-        <Card.Title>Tahapan Bantuan</Card.Title>
+      <Card className='Container3'>
+        <Card.Title>
+          <strong>Tahapan Bantuan</strong>
+        </Card.Title>
         <Card.Body>
-          <IoDocumentTextOutline />
-          <Card.Text>Melengkapi Dokumen</Card.Text>
+          <FaRegFileAlt className='icons' />
+          <Card.Text className='Itext'>
+            Melengkapi <br />
+            Dokumen
+          </Card.Text>
+          <Card.Text className='Line'></Card.Text>
+          <MdOutlineDocumentScanner className='icons' />
+          <Card.Text className='Itext'>
+            Verifikasi <br />
+            Dokumen
+          </Card.Text>
+          <Card.Text className='Line'></Card.Text>
+          <FaRegCheckCircle className='icons' />
+          <Card.Text className='Itext'>
+            Pengajuan <br />
+            Berhasil
+          </Card.Text>
         </Card.Body>
       </Card>
     </>

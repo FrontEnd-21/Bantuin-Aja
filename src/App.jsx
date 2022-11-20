@@ -4,7 +4,6 @@ import Footer from "./Components/Footer";
 import NavBar from "./Components/NavBar";
 import { Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-
 // Pages
 import Home from "./Pages/Home";
 import Bantuan from "./Pages/Bantuan";

@@ -38,7 +38,7 @@ const CardBantuan = () => {
             <MdOutlineTimelapse />
             12 Desember 2022
           </Card.Text>
-          <a href='/LengkapiDokumen'>
+          <a href='/Login'>
             <Button className='btn'>Apply</Button>
           </a>
 

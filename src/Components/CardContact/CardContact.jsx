@@ -4,7 +4,8 @@ import "../../assets/CSS/CardContact.css";
 
 const CardContact = () => {
   return (
-    <>
+    <div className="Contact">
+
       <div className='mitra'>
         <h1>Ingin bergabung menjadi mitra kami?</h1>
         <button>Daftar</button>
@@ -13,7 +14,7 @@ const CardContact = () => {
           <img src={mitra} alt='' />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

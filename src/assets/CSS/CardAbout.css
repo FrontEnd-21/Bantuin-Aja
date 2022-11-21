@@ -1,3 +1,14 @@
+.cont{
+  background-color: #003f7e;
+  border-radius: 100px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  
+}
+
 .about {
     display: flex;
     margin-top: 350px;
@@ -9,6 +20,7 @@
     left: 0px;
     background: #003f7e;
     border-radius: 100px 0px;
+    
   }
   
   .about h1 {
@@ -23,7 +35,7 @@
   
   .about h2 {
     position: absolute;
-    left: 110px;
+    left: 280px;
     font-weight: 500;
     font-size: 20px;
     color: #ffffff;

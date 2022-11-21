@@ -3,8 +3,8 @@ import "../../assets/CSS/CardAbout.css";
 
 const CardAbout = () => {
   return (
-    <>
-      <div className='about'>
+    <div className='about'>
+      <div className='cont'>
         <h1>Tentang Bantuin.aja</h1>
         <h2>Apa sih bantuin.aja itu ?</h2>
         <p>
@@ -13,7 +13,7 @@ const CardAbout = () => {
           memudahkan mitra untuk melakukan validasi serta verivikasi data.
         </p>
       </div>
-    </>
+    </div>
   );
 };
 

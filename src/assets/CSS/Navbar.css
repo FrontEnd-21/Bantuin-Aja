@@ -1,5 +1,16 @@
 .nav-color {
     background: #f8f8f8;
+    height: 100px;
+}
+.conts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+
+    position: relative;
+    
 }
 
 .ms-auto{

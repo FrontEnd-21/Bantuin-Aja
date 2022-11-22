@@ -1,13 +1,35 @@
-
-.container{
-    margin-top: 100px;
-    
+.Tahapan-Card {
+  border-color: white;
+  margin-bottom: 10rem;
 }
 
-.txt {
-    font-size: 20px;
-    color:black
+.Wrap-Body{
+  padding: 0 5rem;
 }
+
+.h1 h1{
+  text-align: center;
+  font-weight:  450;
+  margin-bottom: 5rem;
+}
+
+.Wrap-Step{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 7.5rem;
+}
+
+.Wrap-Step .num {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.Wrap-Step .txt{
+  font-size: 20px;
+  color: black;
+}
+
 
 .span{
     margin:10px 0 10px 0;

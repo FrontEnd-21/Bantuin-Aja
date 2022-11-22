@@ -13,7 +13,7 @@ function NavBar() {
     <>
       <div>
         <Navbar className='nav-color' variant='light' expand='lg'>
-          <div className="conts">
+          <div className='conts'>
             <Navbar.Brand href='/' className='nav-brand'>
               <img src={logo} alt='Logo' />
             </Navbar.Brand>

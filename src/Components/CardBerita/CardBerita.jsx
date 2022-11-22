@@ -1,30 +1,41 @@
 import React from "react";
+
+// CSS
 import "../../assets/CSS/CardBerita.css";
+
+// Bootstrap
+import Card from "react-bootstrap/Card";
+
+// Icons
 import { SlCalender } from "react-icons/sl";
 import { AiOutlineLink } from "react-icons/ai";
 
 const CardBerita = () => {
   return (
     <>
-      <div className='Information'>
-        <div className='Berita'>
-          <h3>Information</h3>
-          <p>
+      <Card className='Gray-box'>
+        <Card.Body className='White-box'>
+          <Card.Title className='News-Title'>
+            <h2>Information</h2>
+          </Card.Title>
+          <Card.Text className='Context'>
+            {" "}
             Sosialisasi bantuan melalui website bantuin.aja serta pengenalan
             mitra baru pada program bantuan pada tahun 2022 melalui platform
             zoom.
-          </p>
+          </Card.Text>
+          <br />
 
-          <p className='txt'>
+          <Card.Text className='Platfrom'>
             <SlCalender />
             <span>Jumat, 30 Desember 2022</span>
-          </p>
-          <p className='txt'>
+          </Card.Text>
+          <Card.Text className='Platfrom'>
             <AiOutlineLink />
             <span>https://bit.ly/BantuinAja</span>
-          </p>
-        </div>
-      </div>
+          </Card.Text>
+        </Card.Body>
+      </Card>
     </>
   );
 };

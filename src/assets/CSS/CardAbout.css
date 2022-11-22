@@ -1,51 +1,42 @@
-.cont{
+.Blue-body {
+  margin: 25rem 0 10rem ;
   background-color: #003f7e;
   border-radius: 100px 0px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
-  
 }
 
-.about {
-    display: flex;
-    margin-top: 350px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    height: 300px;
-    left: 0px;
-    background: #003f7e;
-    border-radius: 100px 0px;
-    
+.Wrap-context{
+  padding: 70px;
+}
+
+.h2 {
+  color: #f27c36;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.h3 {
+display: flex;
+}
+
+.h3 h3{
+  margin-left: 30px;
+  color: white;
+  font-weight: 200;
   }
-  
-  .about h1 {
-    display: flex;
-    text-align: center;
-    position: relative;
-    margin-top: 20px;
-    font-weight: 700;
-    font-size: 30px;
-    color: #f27c36;
-  }
-  
-  .about h2 {
-    position: absolute;
-    left: 280px;
-    font-weight: 500;
-    font-size: 20px;
-    color: #ffffff;
-  }
-  
-  .about p {
-    position: relative;
-    margin: 90px 70px 0 110px;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 40px;
-    color: #ffffff;
-  }
+
+.h3 .h3-icons{
+  font-size: 20px;
+  color: #f27c36;
+  margin: 6px;
+}
+
+.context{
+  font-size: 20px;
+  text-align: left;
+  margin: 0 25px;
+  color: white;
+  font-weight: 200;
+  line-height: 40px;
+}
+
+

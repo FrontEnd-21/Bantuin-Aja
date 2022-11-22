@@ -1,78 +1,66 @@
 import React from "react";
+
+// CSS
 import "../../assets/CSS/CardTahapan.css";
-import { FaSearch, FaFilePdf, FaRegClock, FaUserCheck } from "react-icons/fa";
+
+// Bootstrap
+import Card from "react-bootstrap/Card";
+
+// Icons
+import { FaSearch, FaFilePdf, FaRegClock, FaCheck } from "react-icons/fa";
 
 const CardTahapan = () => {
   return (
     <>
-      <div className='container'>
-        <div className='row'>
-          <div className='col d-flex justify-content-center'>
-            <h1 className='text-center'>Tahapan Mendapatkan Bantuan</h1>
-          </div>
-        </div>
-      </div>
+      <Card className='Tahapan-Card'>
+        <Card.Body className='Wrap-Body'>
+          <Card.Title className='h1'>
+            <h1>Tahapan Mendapatkan Bantuan</h1>
+          </Card.Title>
+        </Card.Body>
 
-      <div className='container' id='tahapan'>
-        <div className='row d-flex justify-content-center align-items-center text-center'>
-          <div className='col'>
-            {" "}
-            <p className='txt'>
-              <b>
-                1
-                <br />
-                <FaSearch className='span' />
-                <br />
-              </b>{" "}
+        <Card.Body className='Wrap-Step'>
+          <Card.Text>
+            <Card.Text className='num'>1</Card.Text>
+            <FaSearch className='span' />
+            <Card.Text className='txt'>
               Memilih Program
               <br />
               Yang Ada
-            </p>
-          </div>
+            </Card.Text>
+          </Card.Text>
 
-          <div className='col '>
-            <p className='txt'>
-              <b>
-                2
-                <br />
-                <FaFilePdf className='span' />
-                <br />
-              </b>{" "}
+          <Card.Text>
+            <Card.Text className='num'>2</Card.Text>
+            <FaFilePdf className='span' />
+            <Card.Text className='txt'>
               Melengkapi Dokumen
               <br />
               Persyaratan
-            </p>
-          </div>
+            </Card.Text>
+          </Card.Text>
 
-          <div className='col'>
-            <p className='txt'>
-              <b>
-                3
-                <br />
-                <FaRegClock className='span' />
-                <br />
-              </b>{" "}
+          <Card.Text>
+            <Card.Text className='num'>3</Card.Text>
+            <FaRegClock className='span' />
+            <Card.Text className='txt'>
               Menunggu
               <br />
               Pengumuman
-            </p>
-          </div>
+            </Card.Text>
+          </Card.Text>
 
-          <div className='col'>
-            <p className='txt'>
-              <b>
-                4
-                <br />
-                <FaUserCheck className='span' />
-                <br />
-              </b>{" "}
-              Bantuan
+          <Card.Text>
+            <Card.Text className='num'>4</Card.Text>
+            <FaCheck className='span' />
+            <Card.Text className='txt'>
+              Bantuan Siap Dikirim
               <br />
-              Siap Dikirim
-            </p>
-          </div>
-        </div>
-      </div>
+              Ke Tempat Atau Rekening Anda
+            </Card.Text>
+          </Card.Text>
+        </Card.Body>
+      </Card>
     </>
   );
 };

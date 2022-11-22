@@ -1,29 +1,28 @@
-.Container {
+.D-Bantuan {
     background-color:#003F7E; 
     color:#F8F8F8;
     padding: 10px;
 }
 
-.body{
+.Wrap-DBantuan{
     margin: 20px 90px 30px 90px;
 }
 
-.title{
+.DBantuan-Title{
     margin-top: 40px;
     font-size: 35px;
 }
 
-.text{
+.DBantuan-Sub{
     margin-top: 20px;
     font-size: 20px;
 }
 
-.text2{
+.DBantuan-Time{
+    margin-right: 60rem;
     margin-top: 100px;
     font-size: 16px;
-    
-    
-    
+ 
 }
 
 .btn{
@@ -60,22 +59,32 @@
     border-radius: 10px;
 }
 
-.Container2{
+.Description{
     padding: 10px;
     margin: 70px 42rem 0 50px;
     border-color: white;
     line-height: 35px;
 }
 
+.Wrap-Des{
+    margin: 10px ;
+}
+
+.Des-Sub{
+    text-align: justify;
+}
+
+
+
 .body2{
     margin-top: 30px;
 }
 
-.Container3{
+.Stages{
     max-width: 200px;
     position: absolute;
     right: 12rem;
-    top: 51rem;
+    top: 45.5rem;
     border-color: white;
     align-items: center;
 }
@@ -83,7 +92,7 @@
 .icons{
     font-size: 70px;
     color: #003F7E;
-    margin-top: 20px;
+  
 }
 
 .Itext{
@@ -95,7 +104,7 @@
     background: #F27C36;
     width: 3px;
     height: 70px;
-    margin-left: 2.5rem;
+    margin-left: 2.1rem;
 }
 
 

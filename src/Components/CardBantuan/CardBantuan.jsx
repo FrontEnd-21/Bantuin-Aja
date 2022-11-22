@@ -22,19 +22,19 @@ import { MdOutlineDocumentScanner } from "react-icons/md";
 const CardBantuan = () => {
   return (
     <>
-      <Card className='Container'>
-        <Card.Body className='body'>
+      <Card className='D-Bantuan'>
+        <Card.Body className='Wrap-DBantuan'>
           <Breadcrumb>
             <Breadcrumb.Item href='/Bantuan'>
               <FaChevronLeft />
               Kembali
             </Breadcrumb.Item>
           </Breadcrumb>
-          <Card.Title className='title'>
+          <Card.Title className='DBantuan-Title'>
             Bantuan Pedidikan Jenjang S1
           </Card.Title>
-          <Card.Subtitle className='text'>Pendidikan</Card.Subtitle>
-          <Card.Text className='text2'>
+          <Card.Subtitle className='DBantuan-Sub'>Pendidikan</Card.Subtitle>
+          <Card.Text className='DBantuan-Time'>
             <MdOutlineTimelapse />
             12 Desember 2022
           </Card.Text>
@@ -50,12 +50,12 @@ const CardBantuan = () => {
         </Card.Body>
       </Card>
 
-      <Card className='Container2'>
-        <Card.Body>
-          <Card.Title>
+      <Card className='Description'>
+        <Card.Body className='Wrap-Des'>
+          <Card.Title className='Des-Title'>
             <strong>Deskripsi Bantuan</strong>
           </Card.Title>
-          <Card.Text>
+          <Card.Text className='Des-Sub'>
             Bantuan pendidikan jenjang S1 Merupakan program bantuan yang
             diadakan oleh NUS University adapun bantuan yang diberikan berupa :
             <ul>
@@ -67,10 +67,10 @@ const CardBantuan = () => {
         </Card.Body>
 
         <Card.Body className='body2'>
-          <Card.Title>
+          <Card.Title className='Des-Title'>
             <strong>Persyaratan bantuan</strong>
           </Card.Title>
-          <Card.Text>
+          <Card.Text className='Des-Sub'>
             <ol>
               <li>KTP</li>
               <li>Rapor SMA (Sudah Legalitas) </li>
@@ -80,13 +80,13 @@ const CardBantuan = () => {
             </ol>
           </Card.Text>
 
-          <Card.Text>
+          <Card.Text className='Des-Sub'>
             <strong>*Point 1-4 Dijadikan satu File dan berbentuk ZIP</strong>
           </Card.Text>
         </Card.Body>
       </Card>
 
-      <Card className='Container3'>
+      <Card className='Stages'>
         <Card.Title>
           <strong>Tahapan Bantuan</strong>
         </Card.Title>
